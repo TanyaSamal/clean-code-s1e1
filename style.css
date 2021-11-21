@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.task-label, .task-input {
+.task-label,
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -49,11 +50,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -136,7 +139,7 @@ h3,
   width: 226px;
 }
 
-.task-list >    .task {
+.task-list > .task {
   width: 226px;
 }
 
