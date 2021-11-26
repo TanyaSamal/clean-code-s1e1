@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header img {
+.header__image {
   width: 100%;
 }
 
-.header .more-inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -76,7 +76,7 @@ button {
 
 /* Heading */
 h3,
-.add-item {
+.add-section__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -104,7 +104,7 @@ h3,
 }
 
 /* New Task */
-.add-item {
+.add-section__label {
   display: block;
   margin: 0 0 20px;
 }
@@ -164,11 +164,11 @@ h3,
   display: none;
 }
 
-.edit-mode .task-input {
+.todo-list__item_edit .task-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task-label {
+.todo-list__item_edit .task-label {
   display: none;
 }
